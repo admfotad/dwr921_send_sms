@@ -53,9 +53,5 @@ def main():
     print(f.send_sms('phone_number','sms_text'))
 
 
-
-
-
-
 if __name__ == '__main__':
     main()
