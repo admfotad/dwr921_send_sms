@@ -3,9 +3,7 @@ import sys
 
 def main():
 
-
     class DWR921_sms:
-
         def __init__(self,IP,login,pasw):
             self.ip=IP
             self.user=login
@@ -37,8 +35,6 @@ def main():
             except Exception as e:
                 print(e)
                 sys.exit(-1)
-
-
 
         def send_sms(self,pnumber,text):
             cookies=self.router_login()
